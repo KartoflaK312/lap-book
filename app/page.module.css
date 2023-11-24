@@ -1,0 +1,36 @@
+.header{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.lapBookContainer{
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  width: 35vw;
+  height: 85vh;
+}
+
+.lapBook {
+  display: grid;
+  grid-template-columns: 2fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.lapBookOpen{
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+    
+    
